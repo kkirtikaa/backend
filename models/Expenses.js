@@ -17,6 +17,10 @@ const ExpenseSchema = new Schema({
     date: {
         type: Date,
         required: true,
+    },
+    email: {
+        type: String,
+        required:true,
     }
 });
 
